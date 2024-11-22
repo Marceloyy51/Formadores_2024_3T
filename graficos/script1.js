@@ -89,7 +89,7 @@ function atualizarGrafico() {
     fetch(url)
         .then(resp => resp.json())
         .then(resp => {
-            valores[0] = resp.Front_End;
+            valores[0] = resp.Front_End; //estes nomes devem ser o mesmo do arquivo json (api)
             valores[1] = resp.Back_End;
             valores[2] = resp.Desenvolvimento_de_Sistemas;
             valores[3] = resp.Analise_de_Projetos;

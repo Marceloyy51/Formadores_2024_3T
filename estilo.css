@@ -52,8 +52,11 @@ nav a:hover {
 
 .graficos-container {
     margin: 5rem;
+    color: var(--primary-color);
 }
-
+.graficos-section{
+    background-color: var(--bg-color);
+}
 .graficos-container__texto {
     font-size: 1.3rem;
     text-align: center;
